@@ -1,3 +1,4 @@
+import 'package:assignment/view_booking.dart';
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'booking.dart';
@@ -55,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
     const Placeholder(),
     const Placeholder(),
     const Placeholder(),
-    const BookingPage(),
+    const ViewBooking(),
     const Placeholder(),
   ];
 

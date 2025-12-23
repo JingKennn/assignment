@@ -117,6 +117,8 @@ class _BookingPageState extends State<BookingPage> {
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(content: Text('Appointment booked successfully!')),
     );
+
+    Navigator.pop(context, true);
   }
 
 
